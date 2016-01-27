@@ -1,0 +1,20 @@
+{
+  "name": "domain-spider",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_PATH=. && ./node_modules/.bin/babel-node src/index.js",
+    "test": "export NODE_PATH=. && ./node_modules/.bin/jasmine ./spec/**/*.js"
+  },
+  "author": "David Clarke <dave@djcnet.co.uk>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "5.0",
+    "jasmine-es6": "^0.1.1"
+  },
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "lodash": "^4.0.0"
+  }
+}
